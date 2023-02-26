@@ -15,8 +15,8 @@
   <mat-form-field appearance="fill" class="width-25vw">
     <mat-label>Choose JetBrains App</mat-label>
     <mat-select [(ngModel)]="jbApp">
-      <mat-option *ngFor="let item of list" [value]="item">
-        {{ item.name }}
+      <mat-option class="select-option" *ngFor="let item of list" [value]="item">
+        <img class="select-image" src="/assets/images/{{ item.logo }}.svg" alt="{{ item.logo }}.svg" title="{{ item.name }}"/>{{ item.name }}
       </mat-option>
     </mat-select>
   </mat-form-field>
@@ -26,7 +26,7 @@
     <input matInput placeholder="Ex. 223.8214.64" [(ngModel)]="buildVersion">
   </mat-form-field>
 
-  <mat-slide-toggle [(ngModel)]="is64bits">Is 64 bits ?</mat-slide-toggle>
+  <mat-slide-toggle color="primary" [(ngModel)]="is64bits">Is 64 bits ?</mat-slide-toggle>
 
   <br><br>
 

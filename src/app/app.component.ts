@@ -23,62 +23,74 @@ export class AppComponent {
     {
       name: 'PHPStorm',
       directoryName: 'PhpStorm',
-      executable: 'phpstorm'
+      executable: 'phpstorm',
+      logo: 'phpstorm'
     },
     {
       name: 'DataGrip',
       directoryName: 'datagrip',
-      executable: 'datagrip'
+      executable: 'datagrip',
+      logo: 'datagrip'
     },
     {
       name: 'GoLand',
       directoryName: 'Goland',
-      executable: 'goland'
+      executable: 'goland',
+      logo: 'goland'
     },
     {
       name: 'PyCharm Professional',
       directoryName: 'PyCharm-P',
-      executable: 'pycharm'
+      executable: 'pycharm',
+      logo: 'pycharm'
     },
     {
       name: 'PyCharm Community',
       directoryName: 'PyCharm-C',
-      executable: 'pycharm'
+      executable: 'pycharm',
+      logo: 'pycharm-ce'
     },
     {
       name: 'Rider',
       directoryName: 'Rider',
-      executable: 'rider'
+      executable: 'rider',
+      logo: 'rider'
     },
     {
       name: 'WebStorm',
       directoryName: 'WebStorm',
-      executable: 'webstorm'
+      executable: 'webstorm',
+      logo: 'webstorm'
     },
     {
       name: 'IntelliJ',
       directoryName: 'IDEA-U',
-      executable: 'idea'
+      executable: 'idea',
+      logo: 'intellij-idea'
     },
     {
       name: 'DataSpell',
       directoryName: 'DataSpell',
-      executable: 'dataspell'
+      executable: 'dataspell',
+      logo: 'dataspell'
     },
     {
       name: 'CLion',
       directoryName: 'CLion',
-      executable: 'clion'
+      executable: 'clion',
+      logo: 'clion'
     },
     {
       name: 'RubyMine',
       directoryName: 'RubyMine',
-      executable: 'rubymine'
+      executable: 'rubymine',
+      logo: 'rubymine'
     },
     {
       name: 'Android Studio',
       directoryName: 'AndroidStudio',
-      executable: 'studio'
+      executable: 'studio',
+      logo: 'android-studio'
     },
   ];
   listInputPath = this.getCookie('input_bas_path_history')?.split('/').filter(el => el.length > 0) || [];
