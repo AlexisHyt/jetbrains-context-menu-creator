@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 60vw;
+  margin: auto;
+  padding: 5vh 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 3vh;
+}
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10vh;
+}
+
+.code-wrapper {
+  background: #111827;
+  color: #fff;
+  padding: 1em;
+  width: 100%;
+}
