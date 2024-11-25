@@ -2,6 +2,8 @@
 
 This project is an update from https://github.com/AzenoX/rgstry-context-menu-creator with a focus on JetBrains Apps
 
+PS: It seems to work only on Windows 10
+
 
 ## Usage
 
